@@ -1,6 +1,11 @@
 body {
-  margin: 0;
-  font-family: Arial;
+    background-image: url('ground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* عشان تفضل ثابتة لو في سكرول */
+    margin: 0;
+    font-family: Arial;
+    min-height: 100vh;
 }
 .bg-image {
     position: fixed;
