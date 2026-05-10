@@ -1,11 +1,13 @@
 body {
-    background-image: url('back.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; /* عشان تفضل ثابتة لو في سكرول */
     margin: 0;
     font-family: Arial;
     min-height: 100vh;
+}
+body.home-page {
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .bg-image {
     position: fixed;
